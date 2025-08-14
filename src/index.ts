@@ -3,7 +3,7 @@ export { default as SearchControl } from './SearchControl';
 export { default as SearchElement } from './SearchElement';
 
 //export { default as AMapProvider } from './providers/amapProvider';
-export { default as BingProvider } from './providers/bingProvider';
+//export { default as BingProvider } from './providers/bingProvider';
 //export { default as CivilDefenseMapProvider } from './providers/civilDefenseMapProvider';
 export { default as EsriProvider } from './providers/esriProvider';
 //export { default as GeoApiFrProvider } from './providers/geoApiFrProvider';
