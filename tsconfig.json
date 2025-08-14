@@ -10,7 +10,7 @@
     "pretty": true,
     "strict": true,
     "rootDirs": ["src", "docs"],
-    "sourceMap": true,
+    "sourceMap": false,
     "removeComments": false,
     "noEmitHelpers": false,
     "outDir": "lib",

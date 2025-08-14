@@ -27,7 +27,7 @@
     "clean": "rimraf ./dist .docz/dist",
     "start": "concurrently npm:build:watch npm:docz:dev",
     "build": "run-p build:dist build:lib build:css && npm run build:compat",
-    "build:dist": "microbundle build --external leaflet --globals leaflet=L --format es,cjs,umd",
+    "build:dist": "microbundle build --external leaflet --no-compress --globals leaflet=L --format umd --no-sourcemap",
     "build:compat": "cp ./dist/geosearch.umd.js ./dist/bundle.min.js",
     "build:lib": "tsc",
     "build:css": "mkdir -p dist && cp ./assets/css/leaflet.css ./dist/geosearch.css",
